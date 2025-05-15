@@ -1,0 +1,13 @@
+@font-face {
+    font-family: lora;
+    src: url(../fonts/Lora-Medium.otf);
+}
+
+@font-face {
+    font-family: ubuntu;
+    src: url(../fonts/UbuntuSans-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+    background-color: #F0EFEB;
+}
