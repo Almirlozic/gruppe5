@@ -1,0 +1,66 @@
+
+
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 2px solid #000;
+    display: inline-block;
+    margin-bottom: 60px;
+  }
+  
+  section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 80px;
+  }
+  
+  .omos img,
+  .koncept img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    flex: 1;
+  }
+  
+  .om1,
+  .om2 {
+    flex: 1;
+  }
+  
+  h2 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .koncept {
+    flex-direction: row-reverse;
+    border-top: 1px solid #000;
+    padding-top: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #2E2E2D;
+    border: 1px solid #2E2E2D;
+    background: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
