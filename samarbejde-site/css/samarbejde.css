@@ -1,0 +1,155 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
+@font-face {
+    font-family: "lora";
+    src: url(../fonts/Lora/Lora-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "brødtekst";
+    src: url(../fonts/Ubuntu_Sans/UbuntuSans-VariableFont_wdth\,wght.ttf);
+}
+
+@media (width <=600px) {
+    
+    h1 {
+        font-family: "lora";
+        color: #2E2E2D;
+        font-size: 24px;
+        font-weight: 500;
+
+        border-bottom: 1px solid #2E2E2D;
+        padding-bottom: 10px;
+        width: 150px;
+        text-align: center;
+        margin: 0 auto;
+
+        
+        margin-top: 40px;
+    }
+    
+    h2 {
+        font-family: "lora";
+        color: #2E2E2D;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    p, ul {
+        font-family: "brødtekst";
+        color: #2E2E2D;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    header,
+    footer {
+        background-color: #8C8F74;
+        padding: 30px;
+        color: #F0EFEB;
+    }
+
+    body {
+        background-color: #F0EFEB;
+        margin: 0;
+        padding: 0;
+    }
+
+    .grid_1-1 {
+        margin-top: 60px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .sam_grøn{
+        background-color: #36482E;
+        color: #F0EFEB;
+        margin-top: 40px;
+        padding: 40px;
+
+            h2,
+            p,
+            ul {
+                color: #F0EFEB;
+            }
+    }
+}
+
+
+@media (width >= 600px) {
+    
+    h1 {
+        font-family: "lora";
+        font-size: 32px;
+        font-weight: 500;
+        color: #2E2E2D;
+
+        border-bottom: 1px solid #2E2E2D;
+        padding-bottom: 10px;
+        width: 200px;
+        text-align: center;
+        margin: 0 auto;
+
+        
+        margin-top: 40px;
+    }
+
+    h2 {
+        font-family: "lora";
+        font-size: 24px;
+        font-weight: 500;
+        color: #2E2E2D;
+    }
+
+    p,
+    ul {
+        font-family: "brødtekst";
+        font-size: 16px;
+        color: #2E2E2D;
+        line-height: 30px;
+    }
+
+    header,
+    footer {
+        background-color: #8C8F74;
+        padding: 50px;
+        color: #F0EFEB;
+    }
+
+    body {
+        background-color: #F0EFEB;
+        margin: 0;
+        padding: 0;
+    }
+
+    .grid_1-1 {
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 100px;
+        }
+    
+    .bild {
+        margin-left: 50px;
+        }
+
+    .sam_grøn {
+        background-color: #36482E;
+        color: #F0EFEB;
+        margin-top: 60px;
+        padding-top: 20px;
+        padding-bottom: 60px;
+
+        h2,
+        p,
+        ul {
+            color: #F0EFEB;
+        }
+
+    }
+
+}
+
+
