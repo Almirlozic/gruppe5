@@ -81,6 +81,11 @@ img {
 
 @media (width >= 600px) {
     
+    .m-w {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
     h1 {
         font-family: "lora";
         font-size: 32px;
@@ -127,8 +132,8 @@ img {
 
     .grid_1-1 {
         margin-top: 100px;
-        margin-left: 50px;
-        margin-right: 100px;
+        margin-left: 0px;
+        margin-right: 0px;
         }
     
     .bild {
@@ -146,6 +151,7 @@ img {
         p,
         ul {
             color: #F0EFEB;
+            line-height: 46px;
         }
 
     }
