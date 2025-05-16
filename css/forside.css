@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #F0EFEB;
+}
+img{
+    width: 90%;
+    height: auto;
+}
+.billede1{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+div{
+    margin-top: 25px;
+    padding-inline: 30px;
+    line-height: 1.5;
+}
+.section-grøn{
+    background-color: #36482E;
+    margin-top: 50px;
+}
+.tekst2{
+    color: #ffff;
+}
+.knap_hvid{
+    display: flex;
+    justify-content: center;
+}
+.knap_hvid button{
+    color: #ffff;
+    border: 2px solid white;
+}
+.knap{
+    display: flex;
+    justify-content: center;
+}
+button{
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 100px;
+    margin-bottom: 15px;
+ 
+}
