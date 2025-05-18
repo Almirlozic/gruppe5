@@ -11,3 +11,13 @@
 * {
     background-color: #F0EFEB;
 }
+
+h1, h2, h3 {
+    font-family: lora;
+    color: #2E2E2D;
+}
+
+p {
+    font-family: ubuntu;
+    color: #2E2E2D;
+}
