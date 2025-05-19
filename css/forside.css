@@ -13,6 +13,10 @@ img{
     margin-top: 100px;
     margin-left: 20px;
 }
+.billede2{
+    margin-top: 50px;
+    margin-left: 20px;
+}
 div{
     margin-top: 25px;
     padding-inline: 30px;
@@ -25,17 +29,9 @@ div{
 .tekst2{
     color: #ffff;
 }
-.knap_hvid{
-    display: flex;
-    justify-content: center;
-}
-.knap_hvid button{
+.tekst2 button{
     color: #ffff;
     border: 2px solid white;
-}
-.knap{
-    display: flex;
-    justify-content: center;
 }
 button{
     height: 50px;
@@ -44,6 +40,43 @@ button{
     border: 2px solid black;
     border-radius: 100px;
     margin-bottom: 15px;
- 
+    margin-top: 20px;
+    margin-left: 90px;
 }
 
+@media(min-width: 800px){
+    img{
+        height: auto;
+        width: 80%;
+        aspect-ratio: 2/2;
+    }
+    .grid_1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .billede1{
+        display: block;
+        grid-column: 2;
+    }
+    .grid_1-1 div{
+        grid-row: 1;
+        margin-top: 100px;
+        padding: 100px;
+        line-height: 2;
+    }
+    .section-grøn{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .section-grøn div{
+        margin-top: 100px;
+        line-height: 2;
+    }
+    .billede2{
+        display: block;
+        padding-bottom: 50px;
+        padding-left: 30px;
+    }
+  
+   
+}
