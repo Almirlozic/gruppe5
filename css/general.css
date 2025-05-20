@@ -8,11 +8,11 @@
     src: url(../fonts/UbuntuSans-VariableFont_wdth\,wght.ttf);
 }
 
-* {
+body {
     background-color: #F0EFEB;
 }
 
-h1, h2, h3 {
+h1, h2, h3, a{
     font-family: lora;
     color: #2E2E2D;
 }

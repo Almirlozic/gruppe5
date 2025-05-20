@@ -26,7 +26,10 @@ div{
     background-color: #36482E;
     margin-top: 50px;
 }
-.tekst2{
+.tekst2 h2{
+    color: #ffff;
+}
+.tekst2 p{
     color: #ffff;
 }
 .tekst2 button{
@@ -42,6 +45,7 @@ button{
     margin-bottom: 15px;
     margin-top: 20px;
     margin-left: 90px;
+    font-family: lora;
 }
 
 @media(min-width: 800px){
