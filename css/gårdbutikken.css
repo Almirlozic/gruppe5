@@ -144,7 +144,7 @@ img.foto_2 {
 2/4;
     grid-row:
 1/2;
-/* height: 300px;  */
+
   object-fit: cover;
   aspect-ratio: 2/1;
 }
