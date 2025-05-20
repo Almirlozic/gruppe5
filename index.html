@@ -6,6 +6,7 @@
     <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="css/forside.css" />
     <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/pop-up.css" />
     <title>Forside</title>
   </head>
   <body>
@@ -16,8 +17,10 @@
         <div>
           <h2>Lorem ipsum dolor sit amet</h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi cupiditate magni nemo quia, commodi in quos, possimus dolor harum repudiandae deserunt. Nobis eius id eveniet earum vero? Rem doloremque iusto vero deleniti aut cum
-            tenetur molestiae nam voluptate, sit explicabo praesentium illo ut provident libero culpa ullam ab, laboriosam ipsam.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi cupiditate magni nemo quia, commodi in
+            quos, possimus dolor harum repudiandae deserunt. Nobis eius id eveniet earum vero? Rem doloremque iusto vero
+            deleniti aut cum tenetur molestiae nam voluptate, sit explicabo praesentium illo ut provident libero culpa
+            ullam ab, laboriosam ipsam.
           </p>
           <a href="link til om os"><button class="knap">Vores koncept</button></a>
         </div>
@@ -27,8 +30,10 @@
         <div class="tekst2">
           <h2>Lorem ipsum dolor sit amet</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus eius excepturi dolores hic perferendis omnis, fugit quod fugiat nihil repudiandae esse quia laborum vitae ex, voluptatum a voluptatem numquam at suscipit. Cumque est ipsa
-            sint accusantium quos enim ratione perferendis veritatis nostrum necessitatibus repudiandae, itaque totam hic nam eius facere!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus eius excepturi dolores hic perferendis
+            omnis, fugit quod fugiat nihil repudiandae esse quia laborum vitae ex, voluptatum a voluptatem numquam at
+            suscipit. Cumque est ipsa sint accusantium quos enim ratione perferendis veritatis nostrum necessitatibus
+            repudiandae, itaque totam hic nam eius facere!
           </p>
           <a href="link til produkter"><button>Produkter</button></a>
         </div>
@@ -38,13 +43,36 @@
         <div>
           <h2>Lorem ipsum dolor sit amet</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magnam totam sunt consequatur consectetur qui temporibus incidunt accusamus eaque laudantium, vel quasi ab tenetur neque nihil itaque voluptate similique possimus! In omnis
-            quasi fugit facere. Atque explicabo voluptate animi, inventore quas impedit rem illum culpa natus nostrum. Pariatur, ducimus placeat.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magnam totam sunt consequatur consectetur
+            qui temporibus incidunt accusamus eaque laudantium, vel quasi ab tenetur neque nihil itaque voluptate
+            similique possimus! In omnis quasi fugit facere. Atque explicabo voluptate animi, inventore quas impedit rem
+            illum culpa natus nostrum. Pariatur, ducimus placeat.
           </p>
           <a href="link til samarbejde"><button class="knap">Samarbejde</button></a>
         </div>
       </section>
     </main>
+    <div class="popup-wrapper" id="popup">
+      <div class="popup">
+        <div class="popup-left">
+          <h2>Smag på sæsonen – før alle andre</h2>
+          <p>
+            Tilmeld dig vores nyhedsbrev og få historier direkte fra gården – om årets høst, nye produkter, opskrifter
+            og livet med økologi på Falster.
+          </p>
+          <form action="#" method="post" class="popup-form">
+            <input type="email" name="email" placeholder="Indtast din e-mail" required />
+            <button type="submit">Tilmeld dig</button>
+          </form>
+        </div>
+        <div class="popup-right">
+          <img src="img/kale.png" alt="Grønkål" />
+          <button class="close-btn" id="closePopup">&times;</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/pop-up.js"></script>
     <footer></footer>
   </body>
 </html>
