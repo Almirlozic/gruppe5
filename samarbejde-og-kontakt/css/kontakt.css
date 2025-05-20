@@ -51,12 +51,6 @@ body {
             line-height: 30px;
         }
 
-    header,footer {
-            background-color: #8C8F74;
-            padding: 30px;
-            color: #F0EFEB;
-        }
-
     .grid_1-1 {
         margin-top: 60px;
         margin-left: 40px;
@@ -106,12 +100,6 @@ body {
             font-size: 14px;
             color: #2E2E2D;
             line-height: 20px;
-        }
-    
-    header, footer {
-            background-color: #8C8F74;
-            padding: 50px;
-            color: #F0EFEB;
         }
         
     .grid_1-1 {
