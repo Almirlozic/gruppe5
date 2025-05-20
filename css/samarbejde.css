@@ -144,4 +144,41 @@ img {
 
 }
 
+/* layout */
+
+@media (width <=600px) {
+
+    .sam_grøn h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sam_center {
+        text-align: center;
+        list-style-position: inside;
+    }
+
+}
+
+@media (width >=600px) {
+
+    .grid_1-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .sam_grøn h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sam_center {
+        text-align: center;
+    }
+
+    .sam_center ul {
+        list-style-position: inside;
+    }
+}
 
