@@ -3,11 +3,100 @@
     margin: 0;
 }
 
-.grid_1-1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+section{
+    background-color: #36482E;
 }
 
-section:nth-last-child{
-    order: -1;
+section h2,section p{
+    color: #F0EFEB;
+}
+
+img{
+    max-width: 400px;
+    height: auto;
+}
+
+main{
+    background-color: #F0EFEB;
+}
+
+.product_sum h2{
+    margin: 3rem 0;
+}
+
+.product_sum p{
+    line-height: 2rem;
+}
+
+/* Product section i toppen af siden */
+.products-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.products-section h1 {
+  color: #2E2E2D;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #000;
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.product-grid .product:last-child {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media(min-width: 800px){
+    main {
+    max-width: 1512px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    }
+    .grid_1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .product_sum{
+        padding: 100px 200px;
+    }
+
+    section img{
+        order: -1;
+    }
+
+    .product_sum p{
+    max-width: 480px;
+    min-width: 200px;
+}
+}
+
+@media(max-width: 800px){
+    
+    .product_sum{
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    .product_sum img{
+        margin: 1rem 0;
+    }
+
+    .products-section {
+    text-align: center;
+    padding: 5rem 0;
+    }
+
 }
