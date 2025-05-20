@@ -1,4 +1,7 @@
-
+*{
+  padding: 0;
+  margin: 0;
+}
 section {
   display: block;
   text-align: center;
@@ -61,6 +64,10 @@ p {
   
 
 @media (min-width: 800px) {
+  *{
+    padding: 0;
+    margin: 0;
+  }
 main {
     max-width: 1000px;
     margin: 0 auto;
