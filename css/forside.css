@@ -74,6 +74,7 @@ button:hover {
     .billede1{
         display: block;
         grid-column: 2;
+        margin-bottom: 100px;
     }
     .grid_1-1 div{
         grid-row: 1;
