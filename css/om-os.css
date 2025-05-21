@@ -57,8 +57,11 @@ p {
     cursor: pointer;
     text-decoration: none;
     margin-top: 10px;
+    cursor: pointer;
+}
+  .btn:hover {
+    background-color: #dddbd4
   }
-  
 
 @media (min-width: 800px) {
 main {
