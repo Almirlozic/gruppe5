@@ -1,0 +1,135 @@
+
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #8C8F74;
+}
+.logo{
+    width: 100px;
+    padding-top: 15px;
+}
+.links{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 10px;
+}
+.link{
+    margin: 45px;
+    color: #e7e7e7;
+}
+.link-item{
+    border: 2px solid #e7e7e7;
+    padding: 15px;
+    margin-right: 15px;
+}
+.link-item:hover{
+    background-color: #36482e;
+    opacity: 90%;
+}
+ul li ul.dropdown li {
+    display: block;
+    margin: 10px 0;
+}
+ul li ul.dropdown {
+    width: 150px;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li:hover ul.dropdown {
+    display: block;
+    margin-top: 15px;
+}
+.dropdown {
+    border: 2px solid #e7e7e7;
+    display: block;
+    margin: -20px;
+    text-align: center;
+    background-color: #e7e7e7;
+    box-shadow: 0px 4px 10px #2e2e2d ;
+}
+.dropdown a{
+    color: #2e2e2d;
+    margin-right: 55px;
+}
+.dropdown a:hover{
+    border-bottom: 2px solid #2e2e2d;
+}
+.burger {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.burger {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.burger .line {
+  width: 100%;
+  height: 2px;
+  background-color: #ffff;
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+}
+.burger {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .links {
+    display: none;
+  }
+  .burger {
+    display: block;
+    margin-right: 30px;
+  }
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+
+  header.active .links {
+    display: block;
+    background-color: #8C8F74;
+    position: absolute;
+    top: 94px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+
+  header.active .links li {
+    margin: 10px 20px;
+    margin-right: 40px;
+  }
+
+  header.active .links a {
+    font-size: 24px;
+  }
+}
