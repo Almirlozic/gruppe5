@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+
 section{
     background-color: #36482E;
 }
@@ -37,7 +38,7 @@ main{
 .products-section h1 {
   color: #2E2E2D;
   font-size: 2rem;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   border-bottom: 2px solid #000;
   display: inline-block;
   padding: 0.5rem;
@@ -58,6 +59,13 @@ main{
   align-items: center;
 }
 
+.pic-right{
+    margin-left: 50px;
+}
+
+.pic-right{
+    margin-right: 50px;
+}
 
 @media(min-width: 800px){
     main {
