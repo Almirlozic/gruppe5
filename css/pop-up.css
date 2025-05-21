@@ -45,7 +45,8 @@
   .popup-form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
+    padding-left: 5rem;
   }
   
   .popup-form input {
@@ -62,6 +63,7 @@
     border: none;
     font-size: 1rem;
     cursor: pointer;
+    border-radius: 2px;
     transition: background 0.2s ease;
   }
   
@@ -69,11 +71,11 @@
     background-color: #444;
   }
   
-  /* Højre side med billede */
   .popup-right {
     flex: 1;
     position: relative;
     padding: 0;
+    margin: 0;
   }
   
   .popup-right img {
@@ -85,15 +87,14 @@
       }
       
   
-  /* Luk-knap */
   .close-btn {
     position: absolute;
-    top: 15px;
-    right: 15px;
-    font-size: 1.8rem;
+    top: 1px;
+    right: 1px;
+    font-size: 2rem;
     background: none;
     border: none;
-    color: white;
+    color: #f0efeb;
     cursor: pointer;
   }
   

@@ -27,15 +27,17 @@ div{
     margin-top: 50px;
 }
 .tekst2 h2{
-    color: #ffff;
+    color: #f0efeb;
 }
 .tekst2 p{
-    color: #ffff;
+    color: #f0efeb;
 }
-.tekst2 button{
-    color: #ffff;
-    border: 2px solid white;
+li {
+    font-family: ubuntu;
+    color: #f0efeb;
+    margin: 1rem;
 }
+
 button{
     height: 50px;
     width: 150px;
@@ -46,7 +48,18 @@ button{
     margin-top: 20px;
     margin-left: 90px;
     font-family: lora;
+    cursor: pointer;
 }
+.tekst2 button{
+    color: #f0efeb;
+    border: 2px solid #f0efeb;
+}
+button:hover {
+    background-color: #dddbd4;
+}
+
+.tekst2 button:hover {
+    background-color: #182a14;}
 
 @media(min-width: 800px){
     img{
@@ -71,7 +84,14 @@ button{
     .section-grøn{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 60px 20px;
+        align-items: center;
     }
+
+    .billede2 {
+        margin-top: 20px;
+      }
     .section-grøn div{
         margin-top: 100px;
         line-height: 2;
