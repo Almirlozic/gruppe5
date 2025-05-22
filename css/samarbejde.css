@@ -13,7 +13,11 @@ img {
     src: url(../fonts/Ubuntu_Sans/UbuntuSans-VariableFont_wdth\,wght.ttf);
 }
 
-@media (width <=600px) {
+.header {
+    position: 0;
+}
+
+@media (width <= 800px) {
     
     h1 {
         font-family: "lora";
@@ -72,7 +76,7 @@ img {
 }
 
 
-@media (width >= 600px) {
+@media (width >= 800px) {
     
     .m-w {
         max-width: 1000px;
@@ -146,7 +150,7 @@ img {
 
 /* layout */
 
-@media (width <=600px) {
+@media (width <=800px) {
 
     .sam_grøn h2 {
         display: flex;
@@ -160,7 +164,7 @@ img {
 
 }
 
-@media (width >=600px) {
+@media (width >=800px) {
 
     .grid_1-1 {
         display: grid;
