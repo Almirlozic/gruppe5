@@ -13,6 +13,11 @@ img {
     src: url(../fonts/Ubuntu_Sans/UbuntuSans-VariableFont_wdth\,wght.ttf);
 }
 
+li {
+    font-family: ubuntu;
+    color: #F0EFEB;
+}
+
 @media (width <=600px) {
     
     h1 {
@@ -80,12 +85,10 @@ img {
     }
 
     h1 {
-        font-family: "lora";
-        font-size: 32px;
-        font-weight: 500;
-        color: #2E2E2D;
-
-        border-bottom: 1px solid #2E2E2D;
+        font-size: 1.5rem;
+        margin: 0 auto 60px;
+        width: fit-content;
+        border-bottom: 2px solid #2E2E2D;
         padding-bottom: 10px;
         width: 200px;
         text-align: center;
