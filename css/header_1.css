@@ -19,6 +19,7 @@ a{
 }
 .logo{
     width: 100px;
+    padding-left: 2rem;
     padding-top: 15px;
 }
 .links{
