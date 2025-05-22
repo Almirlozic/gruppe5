@@ -1,6 +1,7 @@
 img {
     width: 100%;
     height: auto;
+    aspect-ratio: 1 / 1; 
 }
 
 @font-face {
@@ -27,7 +28,7 @@ body {
             font-size: 24px;
             font-weight: 500;
     
-            border-bottom: 1px solid #2E2E2D;
+            border-bottom: 2px solid #2E2E2D;
             padding-bottom: 10px;
             width: 150px;
             text-align: center;
@@ -76,16 +77,16 @@ body {
 
     h1 {
             font-family: "lora";
-            font-size: 32px;
+            font-size: 1.5rem;
             font-weight: 500;
             color: #2E2E2D;
     
-            border-bottom: 1px solid #2E2E2D;
+            border-bottom: 2px solid #2E2E2D;
             padding-bottom: 10px;
             width: 200px;
     
     
-            margin-top: 40px;
+            margin-top: 5rem;
         }
     
     h2 {
@@ -107,6 +108,7 @@ body {
         margin-bottom: 70px;
         margin-left: 90px;
         margin-right: 80px;
+        padding-top: 7rem;
     }
     
     .bild {
