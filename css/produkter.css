@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+
 section{
     background-color: #36482E;
 }
@@ -37,7 +38,7 @@ main{
 .products-section h1 {
   color: #2E2E2D;
   font-size: 2rem;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   border-bottom: 2px solid #000;
   display: inline-block;
   padding: 0.5rem;
@@ -58,6 +59,18 @@ main{
   align-items: center;
 }
 
+.pic-right{
+    margin-left: 50px;
+}
+
+.pic-right{
+    margin-right: 50px;
+}
+
+
+.kornbillede{
+    border-radius: 50%;
+}
 
 @media(min-width: 800px){
     main {
@@ -81,6 +94,34 @@ main{
     max-width: 480px;
     min-width: 200px;
 }
+
+/* popup */
+
+.pop-up{
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    left: 100px;
+    top: 100px;
+    padding: 3rem;
+    background-color: #8C8F74;
+    border-color: #F0EFEB;
+    border-style: solid;
+}
+
+.popuptext h2, .popuptext p{
+    color: #F0EFEB;
+    margin-bottom: 10px;
+}
+
+.popuptext{
+    margin-top: 5rem;
+    max-width: 480px;
+    min-width: 200px;
+    line-height: 2rem;
+}
+
 }
 
 @media(max-width: 800px){

@@ -7,32 +7,82 @@
     <link rel="stylesheet" href="css/produkter.css" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/header1.css" />
   </head>
   <body>
-    <header></header>
+    <header>
+    </header>
     <main>
       <div class="products-section">
         <h1>Produkter</h1>
         <div class="product-grid">
           <div class="product">
-            <img src="https://picsum.photos/450/450" />
+            <img src="produktbilleder/olandshveden.png" id="olandshveden"/>
             <h2>Ølandshveden</h2>
+            <div class="pop-up" id="popup1">
+              <div class="grid_1-1">
+                <img src="produktbilleder/korn1.png" alt="" class="kornbillede">
+                <div class="popuptext">
+                  <h2>Ølandshveden</h2>
+                  <p>Ølandshvede stammer fra Øland, men har været dyrket i hele Østersøregionen siden vikingetiden. På Lammehave indgår den i sædskifte med grønt og andre gamle sorter. Den er langstrået og dyrkes på næringsfattig jord. Brødet er mørkt og kraftigt med intens smag.</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="product">
-            <img src="https://picsum.photos/450/450" />
+            <img src="produktbilleder/hvedegraham.png" id="hvedegraham"/>
             <h2>Hvede- og grahamsmel</h2>
+            <div class="pop-up" id="popup2">
+              <div class="grid_1-1">
+                <img src="produktbilleder/korn2.png" alt="" class="kornbillede">
+                <div class="popuptext">
+                  <h2>Hvedemel og Grahamsmel</h2>
+                  <p>Almindeligt mel er lyst og næringsfattigt, da skaldelene fjernes. Vores mel males på stenkværn med skallen på, hvilket bevarer fibre, vitaminer og protein. Det giver et mørkere, sundere og mere mættende brød med god struktur og smag.</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="product">
-            <img src="https://picsum.photos/450/450" />
+            <img src="produktbilleder/emmer.png" id="emmer"/>
             <h2>Emmer</h2>
+             <div class="pop-up" id="popup3">
+              <div class="grid_1-1">
+                <img src="produktbilleder/korn3.png" alt="" class="kornbillede">
+                <div class="popuptext">
+                  <h2>Emmer</h2>
+                  <p>Emmer er en af de ældste kornsorter, dyrket i Danmark siden 4000 f.Kr. Den har en hård skal, der skal fjernes før formaling, og er nem at dyrke men svær at forarbejde.
+Den lave glutenmængde gør den uegnet alene til brød, men den giver god smag i blandinger. Emmer bruges stadig i traditionelle middelhavsretter som “zuppa al farro”.</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="product">
-            <img src="https://picsum.photos/450/450" />
+            <img src="produktbilleder/rug.png" id="rug"/>
             <h2>Rug</h2>
+             <div class="pop-up" id="popup4">
+              <div class="grid_1-1">
+                <img src="produktbilleder/korn4.png" alt="" class="kornbillede">
+                <div class="popuptext">
+                  <h2>Rug</h2>
+                  <p>Rug startede som ukrudt i hvedemarker, men gav bedre udbytte i Danmark og blev hurtigt det foretrukne brødkorn. Selvom bageevnen er lavere end hvedes, blev rug udbredt i Norden.
+Den kræver lidt næring og blev almindeligt folks brød, mens hvede var “fint”. I dag bruges rug mest til rugbrød, men tidligere blev den også brugt til fx sigtebrød med honning.</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="product">
-            <img src="https://picsum.photos/450/450" />
+            <img src="produktbilleder/guldblomme.png" id="guldblomme"/>
             <h2>Guldblomme</h2>
+             <div class="pop-up" id="popup5">
+              <div class="grid_1-1">
+                <img src="produktbilleder/korn5.png" alt="" class="kornbillede">
+                <div class="popuptext">
+                  <h2>Guldblomme</h2>
+                  <p>Guldblomme er en nyere opdagelse blandt gamle kornsorter og stammer fra Tyskland, hvor den trivedes selv på sandjord.
+Den giver et gyldent brød med en blød, afrundet og let sødlig smag. Guldblomme har gode bageegenskaber og egner sig især til boller, kager, pandekager og franskbrød.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -44,7 +94,7 @@
             godt for kål mm. Vi tilstræber kun at anvende liniesorter og ikke hybridsorter. Det bevirker at grønsagerne ikke er så ensartede, men derimod med mere oprindelig smag og næringsindhold.
           </p>
         </div>
-        <img src="https://picsum.photos/450/450" />
+        <img src="produktbilleder/kurv.png" class="pic-left"/>
       </section>
       <div class="grid_1-1 product_sum">
         <div>
@@ -54,16 +104,49 @@
             af det lokale landskab.
           </p>
         </div>
-        <img src="https://picsum.photos/450/450" />
+        <img src="produktbilleder/honning.png" class="pic-right"/>
       </div>
       <section class="grid_1-1 product_sum">
         <div>
           <h2>Kød og æg</h2>
           <p>Æggene fra lammehave økologi har en flot nærmest orange blomme fordi hønsene får meget grønt foder. Lammene sælges som hele og halve. udskårede stykker kan købes frosne i gårdbutikken hele året rundt. ring gerne for lagerstatus.</p>
         </div>
-        <img src="https://picsum.photos/450/450" />
+        <img src="produktbilleder/aeg.png" class="pic-left" />
       </section>
     </main>
-    <footer></footer>
+    <script src="js/produktpopup.js"></script>
+    <script src="js/header.js"></script>
+    <footer class="site-footer">
+      <div class="footer-content">
+          <div class="footer-section kontakt">
+            <h2>Lammehave Økologi</h2>
+            <p>Eriksdalsvej 24<br>4871 Horbelev</p>
+            <p>Tlf: 21 29 65 06<br>Man-fre: kl. 8 - 17</p>
+            <p><a href="mailto:kontakt@lammehaveoekologi.dk">kontakt@lammehaveoekologi.dk</a></p>
+          </div>
+      
+          <div class="footer-section social">
+            <h2>Følg os</h2>
+            <div class="icons">
+              <a href="https://www.facebook.com/lammehaveoekolgi/?locale=da_DK" target="_blank">
+                <img src="img/facebook.png" alt="Facebook">
+              </a>
+              <a href="https://www.instagram.com/lammehave_oekologi/" target="_blank">
+                <img src="img/insta.png" alt="Instagram">
+              </a>
+            </div>
+          </div>
+      
+          <div class="footer-section rapporter">
+            <h2>Rapporter</h2>
+            <p><a href="https://www.findsmiley.dk/89109">Gårdbutik kontrolrapport</a></p>
+            <p><a href="https://www.findsmiley.dk/89109">Mølleri kontrolrapport</a></p>
+            <p><a href="https://www.findsmiley.dk/669125">Æggepakkeri kontrolrapport</a></p>
+            <div class="eubilleder">
+              <img class="eu_1" src="img/euoko.webp" alt="Økologi logo" />
+              <img class="eu_2" src="img/eu.png" alt="EU logo" />
+            </div>
+          </div>
+    </footer>
   </body>
 </html>
