@@ -19,9 +19,10 @@ a{
   z-index: 1;
 }
 .logo{
-    width: 100px;
+    width: 140px;
     padding-left: 2rem;
-    padding-top: 15px;
+    padding-top: 0;
+
 }
 .links{
     display: flex;
