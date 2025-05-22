@@ -21,6 +21,15 @@ body {
     padding: 0;
 }
 
+.lottie {
+    position: fixed;
+    z-index: 2;
+    height: 500px;
+    width: auto;
+    left: 500px;
+    top: 250px;
+}
+
 @media (width <= 600px) {
 
     h1 {
@@ -52,6 +61,10 @@ body {
             font-size: 14px;
             line-height: 30px;
         }
+
+body {
+    padding-top: 8rem;
+}
 
     .grid_1-1 {
         margin-top: 60px;

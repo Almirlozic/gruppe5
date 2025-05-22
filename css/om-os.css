@@ -99,6 +99,7 @@ main {
   .om1,
   .om2 {
     flex: 1;
+    text-align: left;
   }
   
   h2 {
