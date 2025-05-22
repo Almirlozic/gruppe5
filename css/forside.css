@@ -38,6 +38,7 @@ img{
 .billede1{
     margin-top: 100px;
     margin-left: 20px;
+    width: 500px;
 }
 .billede2{
     margin-top: 50px;
@@ -62,6 +63,12 @@ li {
     font-family: ubuntu;
     color: #f0efeb;
     margin: 1rem;
+}
+
+.tilbud li {
+
+    list-style: circle;
+    
 }
 
 button{
@@ -113,7 +120,6 @@ button{
         grid-template-columns: 1fr 1fr;
         align-items: center;
         padding: 60px 20px;
-        align-items: center;
     }
 
     .billede2 {

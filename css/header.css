@@ -86,7 +86,7 @@ ul li:hover ul.dropdown {
 .burger .line {
   width: 100%;
   height: 2px;
-  background-color: #ffff;
+  background-color: #e7e7e7;
   transition: 0.2s linear;
 }
 .burger {
