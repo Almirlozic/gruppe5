@@ -3,7 +3,6 @@
     margin: 0;
 }
 
-
 section{
     background-color: #36482E;
 }
@@ -27,6 +26,17 @@ main{
 
 .product_sum p{
     line-height: 2rem;
+}
+
+.produktbillede{
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.produktbillede:hover{
+    cursor: pointer;
+    opacity: .5;
 }
 
 /* Product section i toppen af siden */
