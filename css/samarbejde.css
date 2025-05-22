@@ -1,6 +1,8 @@
 img {
     width: 100%;
     height: auto;
+    aspect-ratio: 1 / 1; 
+    padding-top: 5rem;
 }
 
 @font-face {
@@ -20,7 +22,7 @@ li {
 
 @media (width <=600px) {
     
-    h1 {
+    /* h1 {
         font-family: "lora";
         color: #2E2E2D;
         font-size: 24px;
@@ -30,17 +32,16 @@ li {
         padding-bottom: 10px;
         width: 150px;
         text-align: center;
-        margin: 0 auto;
-
-        
-        margin-top: 40px;
+        padding-top: 5rem;
     }
-    
-    h2 {
+     */
+    h1 {
         font-family: "lora";
         color: #2E2E2D;
+        border-bottom: 1px solid #2E2E2D;
         font-size: 20px;
         font-weight: 500;
+        padding-top: 5rem;
     }
 
     p, ul {
@@ -83,26 +84,29 @@ li {
         max-width: 1000px;
         margin: 0 auto;
     }
-
+/* 
     h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
+        border-bottom: 2px solid #2E2E2D;
         margin: 0 auto 60px;
         width: fit-content;
+        text-align: center;
+        padding-top: 9rem;
+      } */
+
+    h1 {
+        font-family: "lora";
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #2E2E2D;
+
         border-bottom: 2px solid #2E2E2D;
         padding-bottom: 10px;
         width: 200px;
-        text-align: center;
-        margin: 0 auto;
 
-        
+
         margin-top: 40px;
-    }
-
-    h2 {
-        font-family: "lora";
-        font-size: 24px;
-        font-weight: 500;
-        color: #2E2E2D;
+        padding-top: 6rem;
     }
 
     p,
