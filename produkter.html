@@ -7,10 +7,36 @@
     <link rel="stylesheet" href="css/produkter.css" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/header1.css" />
+    <link rel="stylesheet" href="css/header_1.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
+      <div>
+        <a href="index.html"> <img class="logo" src="img/Lammehave (6) 1.svg" alt="" /></a>
+      </div>
+      <ul class="links">
+        <li class="link-item">
+          <a href="om-os.html" class="link">Om os</a>
+          <ul class="dropdown">
+            <li><a href="samarbejde.html">Samarbejde</a></li>
+            <li><a href="vores-dyr.html">Gårdensdyr</a></li>
+          </ul>
+        </li>
+        <li class="link-item">
+          <a href="produkter.html" class="link">Produkter</a>
+          <ul class="dropdown">
+            <li><a href="Gårdbutikken.html">Gårdbutik</a></li>
+          </ul>
+        </li>
+        <li class="link-item">
+          <a href="kontaktinfo.html" class="link">Kontakt</a>
+        </li>
+      </ul>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
     </header>
     <main>
       <div class="products-section">
@@ -19,7 +45,8 @@
           <div class="product">
             <img src="produktbilleder/olandshveden.png" id="olandshveden"/>
             <h2>Ølandshveden</h2>
-            <div class="pop-up" id="popup1">
+            <div id="popup-wrapper1" class="popup-wrapper">
+            <div class="pop-up" id="popup1" >
               <div class="grid_1-1">
                 <img src="produktbilleder/korn1.png" alt="" class="kornbillede">
                 <div class="popuptext">
@@ -28,10 +55,12 @@
                 </div>
               </div>
             </div>
+            </div>
           </div>
           <div class="product">
             <img src="produktbilleder/hvedegraham.png" id="hvedegraham"/>
             <h2>Hvede- og grahamsmel</h2>
+            <div id="popup-wrapper2" class="popup-wrapper">
             <div class="pop-up" id="popup2">
               <div class="grid_1-1">
                 <img src="produktbilleder/korn2.png" alt="" class="kornbillede">
@@ -40,11 +69,13 @@
                   <p>Almindeligt mel er lyst og næringsfattigt, da skaldelene fjernes. Vores mel males på stenkværn med skallen på, hvilket bevarer fibre, vitaminer og protein. Det giver et mørkere, sundere og mere mættende brød med god struktur og smag.</p>
                 </div>
               </div>
+              </div>
             </div>
           </div>
           <div class="product">
             <img src="produktbilleder/emmer.png" id="emmer"/>
             <h2>Emmer</h2>
+            <div id="popup-wrapper3" class="popup-wrapper">
              <div class="pop-up" id="popup3">
               <div class="grid_1-1">
                 <img src="produktbilleder/korn3.png" alt="" class="kornbillede">
@@ -54,11 +85,13 @@
 Den lave glutenmængde gør den uegnet alene til brød, men den giver god smag i blandinger. Emmer bruges stadig i traditionelle middelhavsretter som “zuppa al farro”.</p>
                 </div>
               </div>
+              </div>
             </div>
           </div>
           <div class="product">
             <img src="produktbilleder/rug.png" id="rug"/>
             <h2>Rug</h2>
+            <div id="popup-wrapper4" class="popup-wrapper">
              <div class="pop-up" id="popup4">
               <div class="grid_1-1">
                 <img src="produktbilleder/korn4.png" alt="" class="kornbillede">
@@ -68,11 +101,13 @@ Den lave glutenmængde gør den uegnet alene til brød, men den giver god smag i
 Den kræver lidt næring og blev almindeligt folks brød, mens hvede var “fint”. I dag bruges rug mest til rugbrød, men tidligere blev den også brugt til fx sigtebrød med honning.</p>
                 </div>
               </div>
+              </div>
             </div>
           </div>
           <div class="product">
             <img src="produktbilleder/guldblomme.png" id="guldblomme"/>
             <h2>Guldblomme</h2>
+            <div id="popup-wrapper5" class="popup-wrapper">
              <div class="pop-up" id="popup5">
               <div class="grid_1-1">
                 <img src="produktbilleder/korn5.png" alt="" class="kornbillede">
@@ -82,6 +117,7 @@ Den kræver lidt næring og blev almindeligt folks brød, mens hvede var “fint
 Den giver et gyldent brød med en blød, afrundet og let sødlig smag. Guldblomme har gode bageegenskaber og egner sig især til boller, kager, pandekager og franskbrød.</p>
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </div>
