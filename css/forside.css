@@ -79,9 +79,9 @@ button{
     color: #f0efeb;
     border: 2px solid #f0efeb;
 }
-button:hover {
+/* button:hover {
     background-color: #dddbd4;
-}
+} */
 
 .tekst2 button:hover {
     background-color: #182a14;}

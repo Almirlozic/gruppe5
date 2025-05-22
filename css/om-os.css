@@ -76,8 +76,8 @@ main {
     margin: 0 auto 60px auto;
     display: block;
     width: fit-content;
+    padding-top: 5rem;
   }
-  
   
   section {
     display: flex;
