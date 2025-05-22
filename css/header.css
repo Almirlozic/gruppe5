@@ -18,7 +18,10 @@ a{
 }
 
 .logo{
-    width: 100px;
+    width: 140px;
+    padding-left: 2rem;
+    padding-top: 0;
+    padding-bottom: 1rem;
 }
 .links{
     display: flex;
