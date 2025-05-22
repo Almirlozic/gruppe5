@@ -4,12 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
-    <link rel="stylesheet" href="../css/samarbejde.css" />
+    <link rel="stylesheet" href="css/samarbejde.css" />
     <link rel="stylesheet" href="../css/sam_layout.css" />
+    <link rel="stylesheet" href="css/header_1.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <title>Samarbejde</title>
   </head>
   <body>
-    <header></header>
+    <header class="header">
+      <div>
+        <a href="index.html"> <img class="logo" src="img/Lammehave (6) 1.svg" alt="" /></a>
+      </div>
+      <ul class="links">
+        <li class="link-item">
+          <a href="om-os.html" class="link">Om os</a>
+          <ul class="dropdown">
+            <li><a href="samarbejde.html">Samarbejde</a></li>
+            <li><a href="vores-dyr.html">Gårdensdyr</a></li>
+          </ul>
+        </li>
+        <li class="link-item">
+          <a href="produkter.html" class="link">Produkter</a>
+          <ul class="dropdown">
+            <li><a href="Gårdbutikken.html">Gårdbutik</a></li>
+          </ul>
+        </li>
+        <li class="link-item">
+          <a href="kontaktinfo.html" class="link">Kontakt</a>
+        </li>
+      </ul>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </header>
     <main>
       <div class="m-w">
         <h1>Samarbejde</h1>
@@ -18,10 +47,14 @@
           <div>
             <h2>Samarbejde</h2>
             <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor
-              in reprehenderit in voluptate velit .
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+              laborum. Duis aute irure dolor in reprehenderit in voluptate velit .
             </p>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+              laborum.
+            </p>
           </div>
 
           <div class="bild">
@@ -49,6 +82,39 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <script src="js/pop-up.js"></script>
+    <script src="js/header.js"></script>
+    <footer class="site-footer">
+      <div class="footer-content">
+          <div class="footer-section kontakt">
+            <h2>Lammehave Økologi</h2>
+            <p>Eriksdalsvej 24<br>4871 Horbelev</p>
+            <p>Tlf: 21 29 65 06<br>Man-fre: kl. 8 - 17</p>
+            <p><a href="mailto:kontakt@lammehaveoekologi.dk">kontakt@lammehaveoekologi.dk</a></p>
+          </div>
+      
+          <div class="footer-section social">
+            <h2>Følg os</h2>
+            <div class="icons">
+              <a href="https://www.facebook.com/lammehaveoekolgi/?locale=da_DK" target="_blank">
+                <img src="img/facebook.png" alt="Facebook">
+              </a>
+              <a href="https://www.instagram.com/lammehave_oekologi/" target="_blank">
+                <img src="img/insta.png" alt="Instagram">
+              </a>
+            </div>
+          </div>
+      
+          <div class="footer-section rapporter">
+            <h2>Rapporter</h2>
+            <p><a href="https://www.findsmiley.dk/89109">Gårdbutik kontrolrapport</a></p>
+            <p><a href="https://www.findsmiley.dk/89109">Mølleri kontrolrapport</a></p>
+            <p><a href="https://www.findsmiley.dk/669125">Æggepakkeri kontrolrapport</a></p>
+            <div class="eubilleder">
+              <img class="eu_1" src="img/euoko.webp" alt="Økologi logo" />
+              <img class="eu_2" src="img/eu.png" alt="EU logo" />
+            </div>
+          </div>
+    </footer>
   </body>
 </html>
