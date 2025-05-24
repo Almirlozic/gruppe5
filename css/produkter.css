@@ -16,9 +16,6 @@ img{
     height: auto;
 }
 
-main{
-    background-color: #F0EFEB;
-}
 
 .product_sum h2{
     margin: 3rem 0;
@@ -82,11 +79,22 @@ main{
     border-radius: 50%;
 }
 
+.close-btn {
+    position: absolute;
+    top: 1px;
+    right: 20px;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #f0efeb;
+    cursor: pointer;
+  }
+
 @media(min-width: 800px){
     main {
     max-width: 1512px;
     margin: 2.5rem auto 0;
-    padding: 60px 20px;
+    /* padding: 60px 20px; */
     }
     .grid_1-1{
         display: grid;

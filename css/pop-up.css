@@ -90,8 +90,8 @@
   
   .close-btn {
     position: absolute;
-    top: 1px;
-    right: 1px;
+    top: -20px;      /* Lidt op */
+  right: -40px;    /* Lidt længere ud mod højre */
     font-size: 2rem;
     background: none;
     border: none;
