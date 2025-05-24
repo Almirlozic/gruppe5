@@ -99,7 +99,7 @@ ul li:hover ul.dropdown {
   }
   .burger {
     display: block;
-    margin-right: 30px;
+    margin-right: 60px;
   }
   .burger.active .line:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
