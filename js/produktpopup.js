@@ -2,10 +2,10 @@ document.querySelector("#olandshveden").addEventListener("click", olandstext);
 document.querySelector("#popup1").addEventListener("click", olandsremove);
 document.querySelector("#hvedegraham").addEventListener("click", hvedegrahamtext);
 document.querySelector("#popup2").addEventListener("click", hvedegrahamremove);
-document.querySelector("#rug").addEventListener("click", rugtext);
-document.querySelector("#popup3").addEventListener("click", rugremove);
 document.querySelector("#emmer").addEventListener("click", emmertext);
-document.querySelector("#popup4").addEventListener("click", emmerremove);
+document.querySelector("#popup3").addEventListener("click", emmerremove);
+document.querySelector("#rug").addEventListener("click", rugtext);
+document.querySelector("#popup4").addEventListener("click", rugremove);
 document.querySelector("#guldblomme").addEventListener("click", guldblommetext);
 document.querySelector("#popup5").addEventListener("click", guldblommeremove);
 
@@ -34,24 +34,24 @@ function hvedegrahamremove() {
 
 function rugtext() {
   console.log(this);
-  document.getElementById("popup3").style.display = "block";
-  document.getElementById("popup-wrapper3").style.display = "block";
+  document.getElementById("popup4").style.display = "block";
+  document.getElementById("popup-wrapper4").style.display = "block";
 }
 function rugremove() {
   console.log(this);
-  document.getElementById("popup3").style.display = "none";
-  document.getElementById("popup-wrapper3").style.display = "none";
+  document.getElementById("popup4").style.display = "none";
+  document.getElementById("popup-wrapper4").style.display = "none";
 }
 
 function emmertext() {
   console.log(this);
-  document.getElementById("popup4").style.display = "block";
-  document.getElementById("popup-wrapper4").style.display = "block";
+  document.getElementById("popup3").style.display = "block";
+  document.getElementById("popup-wrapper3").style.display = "block";
 }
 function emmerremove() {
   console.log(this);
-  document.getElementById("popup4").style.display = "none";
-  document.getElementById("popup-wrapper4").style.display = "none";
+  document.getElementById("popup3").style.display = "none";
+  document.getElementById("popup-wrapper3").style.display = "none";
 }
 
 function guldblommetext() {
