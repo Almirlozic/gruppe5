@@ -94,7 +94,7 @@ ul li:hover ul.dropdown {
 .burger {
   display: none;
 }
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
   .links {
     display: none;
   }
