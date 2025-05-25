@@ -21,14 +21,7 @@ body {
     padding: 0;
 }
 
-.lottie {
-    position: fixed;
-    z-index: 2;
-    height: 500px;
-    width: auto;
-    left: 500px;
-    top: 250px;
-}
+
 
 @media (width <= 600px) {
 
@@ -80,6 +73,13 @@ body {
         margin-top: 30px;
         margin-bottom: 50px;
     }
+
+     .lottie {
+    position: absolute;
+    z-index: 2;
+    scale: 150%;
+    left: 10px;
+    }
 }
 
 @media (width >=600px) {
@@ -129,6 +129,13 @@ body {
         margin-left: 30px;
         padding: 0%;
         }
+        
+        .lottie {
+    position: absolute;
+    z-index: 2;
+    scale: 300%;
+    left: 830px;
+}
 
 }
 

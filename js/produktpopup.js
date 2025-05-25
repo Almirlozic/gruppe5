@@ -1,13 +1,18 @@
 document.querySelector("#olandshveden").addEventListener("click", olandstext);
-document.querySelector("#popup1").addEventListener("click", olandsremove);
+document.querySelector("#closePopup1").addEventListener("click", olandsremove);
+document.querySelector("#popup-wrapper1").addEventListener("click", olandsremove);
 document.querySelector("#hvedegraham").addEventListener("click", hvedegrahamtext);
-document.querySelector("#popup2").addEventListener("click", hvedegrahamremove);
+document.querySelector("#closePopup2").addEventListener("click", hvedegrahamremove);
+document.querySelector("#popup-wrapper2").addEventListener("click", hvedegrahamremove);
 document.querySelector("#emmer").addEventListener("click", emmertext);
-document.querySelector("#popup3").addEventListener("click", emmerremove);
+document.querySelector("#closePopup3").addEventListener("click", emmerremove);
+document.querySelector("#popup-wrapper3").addEventListener("click", emmerremove);
 document.querySelector("#rug").addEventListener("click", rugtext);
-document.querySelector("#popup4").addEventListener("click", rugremove);
+document.querySelector("#closePopup4").addEventListener("click", rugremove);
+document.querySelector("#popup-wrapper4").addEventListener("click", rugremove);
 document.querySelector("#guldblomme").addEventListener("click", guldblommetext);
-document.querySelector("#popup5").addEventListener("click", guldblommeremove);
+document.querySelector("#closePopup5").addEventListener("click", guldblommeremove);
+document.querySelector("#popup-wrapper5").addEventListener("click", guldblommeremove);
 
 function olandstext() {
   console.log(this);
