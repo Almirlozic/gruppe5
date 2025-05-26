@@ -76,7 +76,7 @@ body {
 
      .lottie {
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     scale: 150%;
     left: 10px;
     }

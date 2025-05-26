@@ -16,7 +16,7 @@ a{
   left: 0;
   width: 100%;
   background-color: #8C8F74;
-  z-index: 1;
+  z-index: 2;
 }
 .logo{
   object-fit:scale-down;  
