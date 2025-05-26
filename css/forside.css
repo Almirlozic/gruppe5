@@ -35,11 +35,10 @@ img{
     margin: 0;
     padding: 0;
   }
-.billede1{
-    margin-top: 100px;
-    margin-left: 20px;
-    width: 500px;
-}
+  .billede1{
+    padding: 20px;
+  }
+  
 .billede2{
     margin-top: 50px;
     margin-left: 20px;
@@ -123,10 +122,12 @@ button{
         align-items: center;
         padding: 60px 20px;
     }
-
-    .billede2 {
-        margin-top: 20px;
-      }
+    .billede1{
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 500px;
+    }
+    
     .section-grøn div{
         margin-top: 100px;
         line-height: 2;
