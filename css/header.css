@@ -81,7 +81,7 @@ ul li:hover ul.dropdown {
   height: 50px;
   cursor: pointer;
   margin-bottom: 50px;
-  padding-right: 70px;
+  padding-right: 30px;
 }
 
 .burger .line {
@@ -100,6 +100,7 @@ ul li:hover ul.dropdown {
 
 
   @media screen and (max-width: 800px) {
+    
     .links {
       display: none;
     }
